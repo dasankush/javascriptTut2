@@ -1,0 +1,101 @@
+.dark {
+  background-color: black;
+  color: #a358e8;
+}
+
+.back {
+  font-weight: bold;
+  font-size: 20px;
+  word-spacing: 0px;
+  text-decoration: none;
+}
+
+.back:hover {
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+}
+
+.heading-container {
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.heading:hover {
+  color: crimson;
+}
+
+.quote {
+  color: crimson;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.quote2 {
+  color: crimson;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.quote2:hover {
+  transform: translateY(-5px);
+}
+
+body {
+  padding-left: 8vw;
+  padding-right: 5vw;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: azure;
+  font-family: monospace;
+  box-sizing: border-box;
+  color: blueviolet;
+  margin: 35px 0 35px 0px;
+}
+
+.title {
+  display: flex;
+  margin: 0;
+  margin-bottom: 0px;
+  padding-top: 3vh;
+  text-align: start;
+}
+
+.txt {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 4vh;
+  padding-right: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.txt:hover {
+  transition: all 0.4s ease-in-out;
+  transform: translateX(10px);
+}
+
+p {
+  display: absolute;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.back-container {
+  margin-top: 30px;
+}/*# sourceMappingURL=style_doc.css.map */

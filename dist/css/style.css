@@ -1,0 +1,131 @@
+.dark {
+  background-color: black;
+  color: #a358e8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+  font-family: monospace;
+  box-sizing: border-box;
+  text-align: center;
+  color: blueviolet;
+  margin: 80px 0 0px 0;
+}
+
+p {
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#count-el {
+  padding-top: 40px;
+}
+
+button {
+  margin: 50px 10px 50px 10px;
+  color: #e6e6e6;
+  background-color: blueviolet;
+  padding: 5px 10px 5px 10px;
+  letter-spacing: 1px;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #6363e2;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: #e6e6e6;
+  background-color: blueviolet;
+  letter-spacing: 1px;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid blueviolet;
+  transition: all;
+  transform: translateY(5px);
+  transition-duration: 0.2s ease-out;
+}
+
+button:active {
+  color: #e6e6e6;
+  background-color: blueviolet;
+  letter-spacing: 1px;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #6363e2;
+  transition: all;
+  transform: translateY(7px) translateX(3px);
+  transition-duration: 0.5s ease-out;
+}
+
+#save-el {
+  line-height: 50px;
+  margin: auto;
+  width: 50%;
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#save-el:hover {
+  color: crimson;
+  border: 2px solid crimson;
+}
+
+#save-btn {
+  background-color: blueviolet;
+  font-weight: bold;
+  color: white;
+}
+
+#save-btn:hover {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+
+#clear-log-btn {
+  background-color: blueviolet;
+  color: white;
+}
+
+#clear-log-btn:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.documentation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 34vh;
+}
+
+.documentation {
+  font-weight: bold;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.documentation:hover {
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

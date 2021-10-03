@@ -1,9 +1,14 @@
 let count = 0;
 let preCount = -1;
+
+
 function increment(){
     count++;
     document.getElementById("count-el").innerText = count;
 }
+
+
+
 function decrement(){
     if(count >0){
         count--;
@@ -11,12 +16,16 @@ function decrement(){
     }
     else{
         alert('Minimum count is 0')
-    }
+    } 
 }
+
+
+
 function reset(){
     alert("Confirm to reset count.");
     document.getElementById("count-el").innerText = count = 0;
 }
+
 function save(){
     countStr = (" " + count + " - ");
     if(count != preCount){
@@ -27,6 +36,10 @@ function save(){
     }
     preCount = count;
 }
+
+
+
+
 function clear_log(){
     alert("Confirm to clear logs.");
     document.getElementById("save-el").innerText = "Previous entries: ";
