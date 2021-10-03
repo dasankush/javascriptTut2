@@ -11,7 +11,7 @@
 //   }
 // }
 .dark {
-  @include theme($dark-theme: false);
+  @include theme($dark-theme: true);
 }
 body {
   margin: 0;
