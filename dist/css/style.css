@@ -108,6 +108,7 @@ button:active {
 
 .documentation {
   font-weight: bold;
+  color: blueviolet;
   padding-bottom: 15px;
   display: flex;
   justify-content: center;

@@ -1,3 +1,6 @@
+*{
+  overflow: initial;  
+}
 @import "./variable";
 @mixin theme($dark-theme) {
   @if $dark-theme {
